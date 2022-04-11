@@ -1,0 +1,11 @@
+// Only change code below this line
+const sum = (num1, num2 = 1) => {
+    
+    const sum = num1 + num2;
+    
+    return num1 + num2;
+}
+console.log(sum(4, 6));
+console.log(sum(3));
+// Only change code above this line
+module.exports = sum;
